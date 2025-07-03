@@ -16,6 +16,17 @@ body{
         border-bottom: solid 2px rgb(7, 197, 71);  
         padding: 20px; 
     }
+section{
+    background-color: green;
+    padding-top:80px ;
+    padding-bottom: 80px;
+    display:flex        ;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+
     /* código da Professora*/
     /* body{
     color: rgb(181, 246, 181); /*cor da fonte - letra */
