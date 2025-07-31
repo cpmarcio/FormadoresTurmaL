@@ -1,40 +1,48 @@
-/*<link rel="stylesheet" href="style.css">
-criar o arquivo style.css e nele colar:
-body{
-    color: rgb(207, 243, 207);
-    background-color: black;
-}
-*/
-body{ 
-    color: rgb (181, 246, 181); /* Cor da fonte */  
-    background-color: rgb( 1, 30, 12); /*cor de fundo */ 
-    /* font-family: ÏBM Plex", sans-serif; */ 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+*{
     margin: 0px;
-} 
-    header { 
-        border-bottom: solid 2px rgb(7, 197, 71);  
-        padding: 20px; 
-    }
-section{
-    background-color: green;
-    padding-top:80px ;
-    padding-bottom: 80px;
-    display:flex        ;
-    justify-content: center;
+    padding: 0px;
 }
+
+body{
+    color: rgb(181, 246, 181); /*cor da fonte - letra */
+    background-color: rgb(1, 30, 12); /* cor do fundo */
+    font-family: "IBM Plex Sans", sans-serif;
+    margin: 0px;
+}
+
+header{ 
+    font-family: cursive;
+    border-bottom: solid 2px rgb(7, 197, 71);
+    padding: 20px; 
+    color: whitesmoke ;
+    font-size: 32px;
+}
+
+h1{
+    color: rgb(236, 244, 200);
+    font-family: sans-serif;
+}
+
+p{
+    color: purple;
+}
+
+section{
+    background-color: rgb(87, 190, 87);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex; /* divs uma ao lado da outra */
+    justify-content: center; /*centraliza o conteudo da div*/
+}
+
 .chamada-texto{
     margin-right: 5%;
 }
 
-    /* código da Professora*/
-    /* body{
-    color: rgb(181, 246, 181); /*cor da fonte - letra */
-   /* background-color: rgb(1, 30, 12); /* cor do fundo */
-    /* font-family: Arial, sans-serif;
-    margin: 0px;
+.fundo-vermelho{
+    background-color: red;
 }
-header{
-    border-bottom: solid 2px rgb(7, 197, 71);
-    padding: 20px;
-}*/
+
+.fundo-azul{
+    background-color: blue;
+}
